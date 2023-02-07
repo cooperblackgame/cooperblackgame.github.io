@@ -7,3 +7,20 @@ body {
 	margin: auto;
 	background-color: white;
 }
+
+.content #header {
+	background-image: url("img/headerBackground.png");
+	
+	background-repeat: cover;
+	background-size: contain;
+	background-repeat: repeat;
+	
+	animation: headeranim 5s infinite;
+	animation-timing-function: linear;
+	animation-direction: normal;
+}
+
+@keyframes headeranim {
+  0% {background-position: -250%;}
+  100% {background-position: 300%;}
+}
