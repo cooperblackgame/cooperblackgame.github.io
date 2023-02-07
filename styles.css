@@ -9,6 +9,8 @@ body {
 }
 
 .content .header {
+	height: 300px;
+	
 	background-image: url("img/headerBackground2.png"), url("img/headerBackground.png");
 	background-size: cover;
 	background-repeat: repeat;
@@ -16,11 +18,13 @@ body {
 	animation: headeranim 5s infinite;
 	animation-timing-function: linear;
 	animation-direction: normal;
-	
-	height: 300px;
 }
 
 @keyframes headeranim {
-  0% {background-position: 0px;}
-  100% {background-position: 1024px;}
+	0% {
+		background-position: 1024px 0px, 1024px 0px;
+	}
+	100% {
+		background-position: -1024px, 0px, 0px 0px;
+	}
 }
