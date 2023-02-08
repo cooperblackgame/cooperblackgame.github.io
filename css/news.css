@@ -1,0 +1,30 @@
+body {
+    background-color: #ff8903;
+}
+
+@font-face {
+	font-family: KeeponTruckin;
+	src: url(/fnts/KeeponTruckin.ttf);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    text-align: justify;
+}
+
+h1 {
+    font-family: KeeponTruckin;
+    margin: 5px;
+    font-size: 35px;
+    text-align: center;
+    color: #d6237f;
+    text-shadow: 2px 2px #0739ab;
+}
+
+.newssection {
+    background-color: white;
+    border-style: solid;
+    box-shadow: 5px 10px 0px #0da5f2;
+    margin: 10px;
+}

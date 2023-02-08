@@ -1,12 +1,12 @@
 /*LOAD FONTS*/
 @font-face {
 	font-family: KeeponTruckin;
-	src: url(fnts/KeeponTruckin.ttf);
+	src: url(/fnts/KeeponTruckin.ttf);
 }
 
 @font-face {
 	font-family: OilBats;
-	src: url(fnts/OilBats.ttf);
+	src: url(/fnts/OilBats.ttf);
 }
 /*-------*/
 
@@ -54,7 +54,7 @@ p {
 .content .header {
 	height: 300px;
 	
-	background-image: url("img/headerBackground2.png"), url("img/headerBackground.png");
+	background-image: url("/img/headerBackground2.png"), url("/img/headerBackground.png");
 	background-size: cover;
 	background-repeat: repeat;
 	
