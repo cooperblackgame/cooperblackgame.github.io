@@ -4,9 +4,11 @@ body {
 
 /*MAIN PAGE*/
 .content {
+	position: relative;
+	
 	max-width: 1024px;
-	min-width: 500px;
-	margin: -10px auto auto auto;
+	min-width: 1024px;
+	margin: -20px auto auto auto;
 	background-color: white;
 	top: 10px;
 }
@@ -36,21 +38,21 @@ body {
 /* Header Logo */
 .content .header #logo {
 	position: absolute;
-    left: 70%;
-	top: 10%;
+    left: 60%;
+	top: 5%;
 	animation: logoanim 1s infinite;
-	transition: 0.3s;
 }
 
 @keyframes logoanim {
-	0% {top: 10%; transform: rotate(0deg);}
-	50% {top: 25%; transform: rotate(10deg);}
+	0% {top: 5%; transform: rotate(-10deg); filter: drop-shadow(0px 0px 10px white);}
+	50% {top: 10%; transform: rotate(10deg); filter: drop-shadow(0px 0px 50px white);}
+	100% {top: 5%; transform: rotate(-10deg); filter: drop-shadow(0px 0px 10px white);}
 }
 
 /* Header Cooper */
 .content .header #cooper {
 	position: absolute;
-    left: 5%;
-	top: 69%;
+    left: 2%;
+	top: 38%;
 }
 /*-------*/
