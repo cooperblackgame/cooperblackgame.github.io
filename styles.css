@@ -4,9 +4,10 @@ body {
 
 .content {
 	max-width: 1024px;
-	min-width: 700px;
-	margin: auto;
+	min-width: 1024px;
+	margin: -10px auto auto auto;
 	background-color: white;
+	top: 10px;
 }
 
 /* HEADER ANIMATION */
