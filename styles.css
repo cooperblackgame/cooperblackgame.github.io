@@ -3,11 +3,13 @@ body {
 }
 
 .content {
-	max-width: 1000px;
+	max-width: 1024px;
+	min-width: 700px;
 	margin: auto;
 	background-color: white;
 }
 
+/* HEADER ANIMATION */
 .content .header {
 	height: 300px;
 	
@@ -18,13 +20,31 @@ body {
 	animation: headeranim 5s infinite;
 	animation-timing-function: linear;
 	animation-direction: normal;
+	
+	position: relative;
 }
 
 @keyframes headeranim {
-	0% {
-		background-position: 1024px 0px, 1024px 0px;
-	}
-	100% {
-		background-position: -1024px, 0px, 0px 0px;
-	}
+	0% {background-position: 1024px, 0px;}
+	100% {background-position: -1024px, -1024px;}
+}
+/*-----*/
+
+.content .header #logo {
+	position: absolute;
+    left: 70%;
+	top: 10%;
+	animation: logoanim 1s infinite;
+	transition: 0.3s;
+}
+
+@keyframes logoanim {
+	0% {top: 10%; transform: rotate(0deg);}
+	50% {top: 25%; transform: rotate(10deg);}
+}
+
+.content .header #cooper {
+	position: absolute;
+    left: 5%;
+	top: 69%;
 }
