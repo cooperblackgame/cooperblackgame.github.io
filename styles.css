@@ -78,7 +78,7 @@ p {
 }
 
 /* Header Cooper */
-.content .header .cooper {
+.content .header #cooper {
 	position: absolute;
     left: 2%;
 	top: 38%;
