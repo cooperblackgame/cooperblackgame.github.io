@@ -37,6 +37,7 @@ p {
 	font-family: OilBats;
 	font-size: 22px;
 	margin: 10px;
+	text-align: justify;
 }
 
 /*-------*/
@@ -87,7 +88,7 @@ p {
 /*-------*/
 
 /* SOCIAL MEDIA BUTTONS */
-.content .socialbuttons {
+.content #socialbuttons {
 	padding: 10px;
 	
 	background-color: rgb(246, 215, 1);
@@ -103,4 +104,13 @@ p {
 .socialbutton:hover {
 	filter: drop-shadow(4px 4px 0.5px rgb(226, 47, 139));
 }
+
+.center {
+	text-align: center;
+}
 /*-------*/
+
+/*MAIN PAGE*/
+.content #mainpage {
+	padding: 20px;
+}
