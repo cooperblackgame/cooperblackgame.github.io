@@ -88,7 +88,7 @@ p {
 /*-------*/
 
 /* SOCIAL MEDIA BUTTONS */
-.content #socialbuttons {
+.content .socialbuttons {
 	padding: 10px;
 	
 	background-color: rgb(246, 215, 1);
