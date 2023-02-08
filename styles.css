@@ -2,15 +2,18 @@ body {
 	background-color: rgb(226, 47, 139); /*Pink*/
 }
 
+/*MAIN PAGE*/
 .content {
 	max-width: 1024px;
-	min-width: 1024px;
+	min-width: 500px;
 	margin: -10px auto auto auto;
 	background-color: white;
 	top: 10px;
 }
+/*-------*/
 
-/* HEADER ANIMATION */
+/* HEADER */
+/* Header Animation */
 .content .header {
 	height: 300px;
 	
@@ -29,8 +32,8 @@ body {
 	0% {background-position: 1024px, 0px;}
 	100% {background-position: -1024px, -1024px;}
 }
-/*-----*/
 
+/* Header Logo */
 .content .header #logo {
 	position: absolute;
     left: 70%;
@@ -44,8 +47,10 @@ body {
 	50% {top: 25%; transform: rotate(10deg);}
 }
 
+/* Header Cooper */
 .content .header #cooper {
 	position: absolute;
     left: 5%;
 	top: 69%;
 }
+/*-------*/
