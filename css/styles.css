@@ -5,7 +5,7 @@
 }
 
 @font-face {
-	font-family: OilBats;
+	font-family: Rebori;
 	src: url(/fnts/Rebori.ttf);
 }
 /*-------*/
@@ -41,7 +41,7 @@ h1 {
 }
 
 p {
-	font-family: OilBats;
+	font-family: Rebori;
 	font-size: 22px;
 	margin: 20px;
 	text-align: center;
@@ -148,7 +148,7 @@ footer p {
 }
 
 .normalp {
-	font-family: OilBats;
+	font-family: Rebori;
 	font-size: 22px;
 	margin: 20px;
 	text-align: center;
